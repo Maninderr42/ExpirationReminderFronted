@@ -1,0 +1,140 @@
+.profile {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  .profils__container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .profile__title {
+    position: fixed;
+    margin-bottom: 2rem;
+    font-size: 22px;
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+  .top{
+    margin-top: 7rem;
+  }
+  
+  .profile__content {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .profile__left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profil_pic-block {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Img_Pic {
+    border-radius: 50%;
+    margin-top: 9rem;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .personal-info {
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+  
+  .profile__name {
+    margin-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .profile__email {
+    color: #019863;
+    margin-top: 0.5rem;
+  }
+  
+  .profile__right {
+    flex: 2;
+  }
+  
+  .profile__content-data {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  .title__edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .input__profile {
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #b6a981;
+    padding: 12px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .bio-input {
+    height: 100px;
+  }
+  
+  .edit__button {
+    color: #019863;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: white;    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nochange__input {
+    cursor: not-allowed;
+    background-color: #f0eeee;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .profile__delete {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #b6a981;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .delete__title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .delete__button {
+    color: white;
+    background-color: #019863;
+    font-size: 16px;
+    padding: 1px 10px 1px 10px    ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete__button:hover {
+    background-color: #c9302c;
+  }

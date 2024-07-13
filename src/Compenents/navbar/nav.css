@@ -1,0 +1,113 @@
+.profil__content{
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Adjust this value according to your design */
+    transform: translateY(-50%);
+}
+
+
+.profil__pic{
+    width: 40px;
+    cursor: pointer;
+    direction: ltr;
+    margin-right: 1rem;
+
+}
+.profil__pic:hover{
+    transform: scale(1.3);
+    transition: 0.1s;
+}
+.bell__icon{
+   margin-right: 3.5rem;
+   font-size: 25px;
+   color: rgba(0, 0, 0, 0.7);
+   margin-top: 2px;
+   cursor: pointer;
+
+}
+.bell__icon:hover{
+    color: rgb(62, 129, 243);
+}
+.bell__animation{
+  
+    animation: pulse 2s ease-in infinite;
+}
+.notification__drawer{
+    margin-top: 7rem;
+    position: absolute;
+    right: 2rem;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+@keyframes pulse{
+    0% ,90%{
+      transform: rotateZ(0);
+    }
+    5%, 15%, 25% ,35%, 45%, 55%, 65%, 75%{
+        transform: rotateZ(-25deg);
+    }
+    10%, 20% ,30% ,40% ,50%, 60%, 70%, 80%{
+        transform: rotateZ(25deg)
+    }
+}
+
+.profile-options {
+    position: absolute;
+    top: calc(100% + 2px); /* Adjust the spacing between profile picture and options */
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+}
+.profile-options li {
+    list-style: none;
+    
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.profile-options li:hover {
+    background-color: #f2f2f2;
+}
+.nav__test{
+    position: relative; /* Set position relative to allow absolute positioning inside */
+    margin-left: 1rem;
+    font-family: var(--body-font);
+    display: flex;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    background-color: #fef4e4;
+    border-radius: 10px;
+
+}
+.nav__test {
+    display: none;
+  }
+  
+  .nav__test.visible {
+    display: block;
+  }
+  
+.nav__title{
+    padding: 1rem;
+    z-index: 2;
+
+}
+.test__pic{
+    width: 100px;
+    position: absolute;
+    top: -15px;
+    left: 105px; /* Adjust this value according to your design */
+    z-index: 1;
+}
+.test__button{
+    background-color: #FFAE1F;
+    border-radius: 8px;
+    padding: 6px 14px 6px 14px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 8px;
+}

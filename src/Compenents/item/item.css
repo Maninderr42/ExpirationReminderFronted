@@ -1,0 +1,385 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--body-font);
+  height: 100%;
+}
+.item__container {
+  flex: 1;
+  width: 100%;
+  overflow-y: auto;
+}
+.accordion-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+
+  font-family: var(--body-font);
+}
+
+.image-container {
+  flex: 1;
+}
+
+
+.form-container {
+  flex: 1;
+  margin-top: 4rem;
+  margin-right: 2.5rem;
+  width: max-content;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 3rem;
+}
+.appointment-data{
+  background-color: #f4e0ce;
+
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.item__title{
+    font-family:none;
+    margin-bottom: 4rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));    padding: 0.90rem;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #b6a981;
+  }
+  .item__subtitle{
+    color: black;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+}
+  .item__form-title{
+    font-family:none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color:#ebf1f6;
+    margin-top: 1rem;
+    padding: 0.50rem;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  .According__item{
+    font-family: var(--body-font)!important;
+    margin-left: 40px!important;
+    margin-right:  40px!important;
+    background-color: #edeae2!important;
+    border-top: none!important;
+    margin-top: 10px!important;
+    box-shadow: none!important;
+    border-radius: 14px!important;
+    padding: 0.45rem!important;
+    font-size: 30px!important;
+  }
+  .item__content-title{
+    margin-left: 2.4rem;
+    margin-bottom: 2.5rem;
+
+  }
+  .item__content-title2{
+    font-family:var(--body-font);
+
+   color: rgba(0, 0, 0, 0.6);
+   font-size: 16px;
+   font-weight: 300;
+  }
+  .document__reminder{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .document__reminder-subtitle{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .document__reminder-button{
+    background-color: #0c0c0c!important;
+
+  }
+ 
+ 
+
+  .appointment__img{
+    width: min-content;
+    margin: auto; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  }
+ 
+  .appointment__title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 0.50rem;
+    
+  }
+ 
+ 
+  .appointment__remidner{
+    display: flex;
+    gap: 1rem;
+  
+  }
+  #date,
+  #time{
+    font-size: 15px;
+  }
+  .apppintment-input{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 50px;
+    font-size: 16px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+ 
+  .appointment__form-area textarea{
+    resize: none;
+    height: 11rem;
+
+  }
+  .appointment__notes{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 20px;
+    top:4px;
+    left: 4px;
+   
+  }
+  .button{
+    background-color: #5D87FF;
+    padding: 8px 36px 8px 36px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: black;
+  }
+  .event-button{
+    background-color: black;
+  }
+  .event-button:hover{
+    background-color: #5D87FF;
+
+  }
+
+  .uil{
+    margin-left: 0.30rem;
+  }
+  .event__data{
+   
+    background-color: #bed9f8;
+    
+  }
+  .epiration__data{
+   background-color: white;
+   
+  }
+  .reminder__select{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .reminder__selected-inside{
+    width: 80%;
+  }
+  .expiration__dates,
+  .expiration__price{
+    width: 80%;
+  }
+  .expiration__form{
+    margin-top: 0.50rem;
+  }
+ 
+  .counter{
+    width: 200px;
+    font-size: 45px;
+    background-color: white;
+    padding: 0.50rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+
+  }
+  .counter__content{ 
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4); 
+    padding: 1px 2px 2px 3px;
+  }
+
+  .img3{
+
+    margin-left: 3rem;
+  }
+  .uil-plus{
+    font-size: 30px;
+    margin-right: 6px;
+    color: rgb(16, 151, 16);
+  }
+  .uil-minus{
+    margin-left: 6px;
+    font-size: 30px;
+    color: red;
+  }
+
+  .expiration__upload-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .uploadPic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #1475cf;
+    height: 70px;
+    width: 600px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .uploaded-row{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #e9f0ff;
+  }
+  
+  .upload-content{
+    display: flex;
+    align-items: center;
+  }
+  .Expiartion__successMessage{
+    color: green;
+    margin-left: 1.2rem;
+    margin-top: 0.50rem;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .Expiartion__errorMessage{
+    color: red;
+    margin-left: 1.2rem;
+    margin-top: 0.50rem;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .reminderTypes__title{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+  .Typography-subtitle{
+    font-family: 'Plus Jakarta Sans';
+    color: #b6a981;
+    font-size: 14px;
+  }
+ 
+ .item__content-reminderTypes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+ }
+  .item__content-typesData{
+    width: min-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .item__content-typesvalues1{
+    display: flex;
+    flex-direction: column;
+  }
+  .reminderTypes-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .reminderTypes-title{
+    margin-top: 3px;
+    margin-left: 4px;
+  }
+  .reminderTypes-subtitle{
+    font-size: 12px;
+    color: #b6a981;
+    margin-left: 4px;
+
+  }
+  .explore__more-link{
+    color: darkslategrey;
+    float: right;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3rem;
+  }
+  .expoloricon{
+    margin-top: 5px;
+    animation: moveRight 0.5s infinite; /* Apply continuous movement animation */
+    transition: transform 0.3s ease;
+  
+  }
+  @keyframes moveRight {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(6px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .explore__more-link:hover .expoloricon {
+    animation: moveRight 0.5s infinite; /* Apply continuous movement animation */
+  }
+  .explore__more-link h2{
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: larger;
+    margin-bottom: 3rem;
+
+  }
+
+  @media screen and (max-width: 992px) {
+  
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  
+  }
+  
+  @media screen and (max-width: 576px) {
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+  
+  }

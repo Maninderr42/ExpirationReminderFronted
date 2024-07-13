@@ -1,0 +1,339 @@
+.inventory__title{
+    font-family:none;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));    padding: 0.90rem;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #b6a981;
+  }
+ 
+  .inventory__subtitle{
+    color: black;
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+}
+  .inventory__container{
+    font-family: var(--body-font);
+    width: 100%;
+  }
+  .inventory__box-data5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* Responsive grid layout */
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+  }
+  .inventory__graph1{
+    margin-left: 4rem;
+    width: max-content;
+    flex-wrap: wrap;
+  }
+  .inventory__graph2{
+   width: 580px;
+  }
+  
+  .inventory__graph1-title{
+    margin-bottom: 2rem;
+    font-size: 30px;
+    margin-left: 2rem;
+
+  }
+  .inventory__schedule{
+    border-radius: 10px;
+    height: 320px;
+    font-family: var(--body-font);
+    flex-wrap: nowrap;
+    margin-top: 1.3rem;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+  }
+  .Schedule__list{
+    list-style: none;
+    width: 520px;
+    margin-left: 0.50rem;
+    margin-top: 0.65rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;  }
+
+  .Schedule__list-data{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .Schedule__list-type{
+    position: relative;
+    margin-top: 0.70rem;
+    margin-left: 1.2rem;
+    padding: 12px 16px 12px 16px;
+    left: -2px;
+    height: max-content;
+    border-radius:30px;
+    text-orientation: mixed;
+  }
+  .Schedule__list-title{
+    position: relative;
+    left: -160px;
+    margin-left: 2rem;
+  }
+  .Schedule__list-Date{
+    margin-left: 0.30rem;
+    font-size: 12px;
+  }
+
+  /* inventory.css */
+
+
+/* CSS classes for conditional coloring based on schedule type */
+.Schedule__list-type--event {
+  background-color:  rgb(233, 228, 228); 
+  color: black;
+  font-size: 8px;
+}
+
+.Schedule__list-type--appointment {
+  background-color:  black;
+  color: white;
+  font-size: 8px;
+ 
+}
+
+
+  /*  */
+.uil2{
+  position: relative;
+  margin-top: 0.90rem;
+  width: 50px;
+  margin-right: 1rem;
+  color: rgb(181, 178, 178);
+  cursor: pointer;
+  height: 30px;
+  margin-bottom: 10px;
+}
+  /*  */
+  .nothing__class{
+    cursor: pointer;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nothing__upcoming-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+  }
+  .nothing__pargh{
+    font-size: 11px;
+    letter-spacing: 0.1px;
+  }
+ 
+  .CalendarPlus{
+    font-size: 45px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;    background-color: white;
+    border-radius: 6px;
+    padding: 8px;
+
+  }
+  .inventory__content-Search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    margin-left: 1rem;
+       padding-top: 1.5rem;
+    margin-right: 2rem;
+    
+    font-family: var(--body-font);
+ }
+
+ .inventory__search{
+    background-image: url(../../Assets/search.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:2px;
+    padding: 8px 6px 8px 30px;
+    margin-left: 1rem;
+    font-size: 15px;
+    width: 580px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+ }
+ .search-input-category{
+    margin-right: 1rem;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+    padding: 8px;
+    font-size: 15px;
+ }
+ .inventory__serach-date{
+    margin-right: 0.50rem;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+    padding: 8px;
+    font-size: 15px;
+ }
+ .inventory__search-titleserach{
+    margin-left: 0.50rem;
+ }
+ .inventory__search-titleselected,
+ .inventory__search-titleDate{
+margin-left: 1rem;
+ }
+ .fa-angle-double-down{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 9px;
+    font-size: 20px;
+    margin-top: 1.4rem;
+ }
+ .search-button{
+    margin-top: 1.3rem;
+    padding: 10px 50px 10px 50px;
+ }
+ .inventory__content-tabledata{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 4rem;
+  border-radius: 10px;
+}
+.edit__button{
+  color: #b6a981;
+  cursor: pointer;
+  font-weight: 450;
+}
+
+.product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content horizontally */
+  padding: 20px 38px 38px 38px  ; /* Add some padding around the content */
+}
+
+.product__title{
+  margin-bottom: 1rem;
+}
+
+.product__table {
+  width: 100%; /* Table width is 100% of its container */
+  border-collapse: collapse; 
+  margin: auto; /* This will center the table horizontally */
+}
+
+.inventory__table-heading,
+.table__data {
+  text-align: center; /* Centers text in the table cells */
+  border: none;
+  padding: 8px;
+}
+.table__heading{
+  border-radius: 5px;
+}
+.left1{
+  border-left: 1px solid #b6a981;
+
+}
+.right1{
+  border-right: 1px solid #b6a981;
+
+
+}
+.table__row,
+.table__data {
+   border-bottom: 1px solid #b6a981;
+   border-top: 1px solid #b6a981;
+
+}
+
+
+.inventory__table-heading {
+  border-top: 1px solid #b6a981;
+  background-color: #f8f4e7; /* Green background for headings */
+  color: rgba(0, 0, 0, 0.8); /* White text color */
+  padding: 12px; /* More padding for heading cells */
+}
+
+.table__data {
+  vertical-align: middle; /* Aligns the content vertically in the middle of the cell */
+}
+.uil-trash-alt,
+.uil-edit,
+.sell__icon{
+font-size: 20px;
+cursor: pointer;
+}
+.uil-trash-alt{
+color: red;
+}
+.custom-dialog-content {
+  border-radius: 10px !important;
+  background-color: #f0f0f0 !important;
+}
+
+.custom-dialog-title {
+  font-size: 25px;
+  font-family: var(--body-font) !important;
+}
+
+.custom-dialog-text {
+  font-size: 18px;
+}
+
+.custom-dialog-cancel {
+  color: black;
+}
+.NodataPic{
+  width: 100px;
+  height: 100px;
+}
+.NodataPic__title{
+  font-weight: 300;
+}
+
+.custom-dialog-delete {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .inventory__box-data5{
+    gap: 2rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .inventory__box-data5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}

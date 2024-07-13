@@ -1,0 +1,237 @@
+.home__container{
+    font-family: var(--body-font);
+    width: 100%;
+
+}
+.home__welcome-title{
+   font-size: 1.2rem;
+    font-weight: 200;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    background-color: #12dfb9;
+    border-radius: 10px;
+    padding: 0.60rem;
+    color: white;
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+}
+
+.uil-multiply{
+color: rgba(246, 245, 245, 0.6); 
+position: relative;
+float: right;
+margin-right: 0.75rem;
+cursor: pointer;
+}
+.home__title{
+  font-family:none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));  padding: 0.90rem;
+  border-radius: 10px;
+}
+.home__title1{
+  color: #000;
+  margin-right: 1rem;
+  font-size: 25px;
+
+
+}
+.home__subtitle1{
+  font-family: 'Plus Jakarta Sans';
+  color: #b6a981;
+  font-size: 17px;
+
+}
+.home__subtitle{
+  font-family:"Plus Jakarta Sans", sans-serif;
+  color: #000;
+  font-weight: 50;
+}
+.fa{
+  font-size: 18px;
+  margin-right: 0.50rem;
+  margin-left: 2px;
+}
+.home__box{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 1rem;
+    font-family: var(--body-font);
+
+}
+.home__box-data1,
+.home__box-data2,
+.home__box-data3,
+.home__box-data4{
+    border: 0px solid black;
+    padding: 2rem;
+    padding-top: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.home__subtitle{
+    font-size: 1.3rem;
+}
+.home__box-data1{
+background-color: #0bcb8f;
+}
+.home__box-data2{
+background-color: #05c7e1
+}
+.home__box-data3{
+background-color: #ffc401;
+
+}
+.home__box-data4{
+background-color: #fe5560;
+}
+.home__data{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.home__line{
+    margin-top: 5rem;
+}
+.home__data-title{
+    margin-top: 0.75rem;
+    color: #434445;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+}
+.calendar-container .react-calendar {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height as needed */
+    background-color: transparent;
+    border: none;
+    font-family: var(--body-font);
+
+    
+  }
+  
+  .react-calendar__tile {
+   padding: 1rem; 
+
+  }
+  
+  .react-calendar__navigation {
+    font-size: large;
+    /* Larger font size for navigation labels */
+  }
+  .react-calendar__month-view__weekdays__weekday {
+    padding: 0.5rem;
+    font-size: 25px;
+    background-color: #ebe6d8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem;
+    
+
+  }
+  .react-calendar__month-view__days__day abbr {
+    font-size: 17px; /* Adjust the font size as needed */
+    /* color: rgba(0, 0, 0, 0.7); */
+    
+
+  }
+  .react-calendar__navigation__label {
+    font-size: 2rem;
+    font-family: var(--body-font);
+    color: #5f5f60;
+
+  }
+  .react-calendar__tile {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+
+  
+  .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+  }
+
+  .calendar-container .react-calendar__tile--active {
+    border-radius: 10px;
+    background-color: #ebe6d8 !important; 
+    color: #000 !important;
+}
+
+  .home__box-data5{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(2,1fr); /* Responsive grid layout */
+    margin-top: 7rem;
+    gap: 2rem;
+  }
+  .graph1{
+    margin-left: 10rem;
+    width: max-content;
+  }
+  
+  .graph1__title{
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+
+  }
+  .graph2__title{
+    margin-bottom: 2rem;
+  }
+ 
+
+    
+@media screen and (max-width: 992px){
+    .home__box{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 1rem;
+    
+    }
+    .home__box-data5{
+      width: 80%;
+
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home__data-title{
+       
+        font-size: 1.80rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .home__box{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        gap: 1rem;
+    
+    }
+    .home__data-title{
+       
+        font-size: 1.50rem;
+    }
+    .home__box-data5{
+      grid-template-columns: repeat(1,1fr);
+      gap: 3rem;
+
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+}

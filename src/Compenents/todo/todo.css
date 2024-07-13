@@ -1,0 +1,327 @@
+.todo__content {
+    font-family: var(--body-font);
+  }
+  
+  .todo__content-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .todolist__title {
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));    padding: 0.90rem;
+    font-size: 25px;
+    color: #b6a981;
+    border-radius: 10px;
+  }
+  
+  .todo__subtitle {
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+  }
+  
+  .todo__title {
+    display: flex;
+    margin-left: 4.5rem;
+  }
+  
+  .header-title {
+    font-size: 2.5rem;
+  }
+  
+  .todo__content-logo {
+    width: 50px;
+    height: 40px;
+    margin-left: 0.50rem;
+  }
+  
+  .todo__content-input {
+    height: 20px;
+    border-radius: 20px;
+  }
+  
+  .todo__plus {
+    margin-right: 3rem;
+    padding: 2rem;
+    border-radius: 60px;
+    cursor: pointer;
+  }
+  
+  .fa-plus {
+    font-size: 50px;
+    margin-right: 3rem;
+  }
+  
+  .btn-modal p {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    padding: 4px 10px;
+    margin-right: 3rem;
+    border-radius: 30px;
+    background-color: #f4efe9;
+  }
+  
+  .header-subtitle {
+    color: #a38953;
+  }
+  
+  .modal {
+    z-index: 10;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh; /* Adjust height to 100vh */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    font-family: var(--body-font);
+  }
+  
+  .todo__content-body {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .todo__picture {
+    width: 300px;
+    height: 300px;
+    margin-top: 2rem;
+  }
+  
+  .todo__pic-inside {
+    width: 100%;
+    margin-top: 6rem;
+    background: transparent;
+  }
+  
+  .overlay {
+    background: rgba(49, 49, 49, 0.8);
+  }
+  
+  .more__icon {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%; /* Adjusted to center vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f8f4e7;
+    padding: 62px 28px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    max-width: 90vw; /* Ensure max-width for responsiveness */
+    width: 100%; /* Ensure width fits within viewport */
+  }
+  
+  .todo-input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    background: white;
+    margin-bottom: 18px;
+    font-size: 20px;
+  }
+  
+  .todoAdd-title {
+    font-size: 23px;
+    margin-left: 6px;
+    margin-bottom: 3px;
+  }
+  
+  .free__time-subtitle {
+    font-weight: 200;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0.20rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .free__time-add {
+    background-color: #f6ede3;
+    border-radius: 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+    padding: 4px 10px;
+  }
+  
+  .free__time-img {
+    border-radius: 12px;
+  }
+  
+  .free__time-title {
+    margin-top: 1rem;
+  }
+  
+  .free__time {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto; /* Center align for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close-modal {
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    background: transparent;
+  }
+  
+  .Add-modal {
+    width: fit-content;
+    padding: 15px 40px;
+    margin-top: 1rem;
+    margin-left: 0.50rem;
+    border-radius: 10px;
+    background-color: #019863;
+    color: white;
+  }
+  
+  .todo-list {
+    display: grid;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: var(--body-font);
+    grid-template-columns: repeat(2, 1fr); /* Ensure responsiveness */
+    gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    max-width: 100%; /* Ensure max-width for responsiveness */
+  }
+  
+  .todo-list__item {
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #f6ede3;
+  }
+  
+  .todo-item-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+  
+  .more__icon {
+    position: relative;
+    top: -10px;
+  }
+  
+  .uil-ellipsis-h {
+    position: relative;
+    cursor: pointer;
+    margin-top: 6px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .option {
+    position: relative;
+    top: 20px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+  }
+  
+  .option li {
+    background-color: white;
+    list-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .option li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .todo__list-done {
+    display: flex;
+    justify-content: end;
+    gap: 3px;
+    margin-top: 0.50rem;
+  }
+  
+  .input-check-done {
+    margin-top: 1rem;
+  }
+  
+  .todo-list__item.completed h1,
+  .todo-list__item.completed p {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .emoji {
+    font-size: 20px;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 992px) {
+    .section {
+      padding-left: 4rem; /* Adjust padding for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section {
+      padding: 2rem; /* Adjust padding for smaller screens */
+    }
+  
+    .todo__title {
+      margin-left: 2rem; /* Adjust for smaller screens */
+    }
+  
+    .todo-list {
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+  
+    .modal-content {
+      padding: 30px 20px; /* Adjust padding for smaller screens */
+      min-width: unset; /* Ensure no min-width */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .section {
+      padding: 1rem; /* Adjust padding for extra small screens */
+    }
+  
+    .todo__title {
+      margin-left: 1rem; /* Adjust for extra small screens */
+    }
+    .todo__pic-inside{
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .section {
+      padding: 0.5rem; /* Adjust padding for very small screens */
+    }
+  }

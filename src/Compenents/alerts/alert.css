@@ -1,0 +1,441 @@
+.alert__title{
+    font-family:none;
+    margin-bottom: 1cqmin;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));
+    padding: 0.90rem;
+    font-size: 25px;
+    color: #b6a981;
+    border-radius: 10px;
+  }
+  .alert__subtitle{
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+    color: #000;
+  }
+  .alert--subbtitle{
+   font-family:var(--body-font);
+
+   color: rgba(0, 0, 0, 0.6);
+   margin-left: 1rem;
+   font-size: 16px;
+   font-weight: 300;
+  }
+  .alert__content-title{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content:space-between;
+    overflow: hidden;
+  }
+  .alert--title{
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    margin-top: 1.3rem;
+    
+  }
+  .create-button{
+   position: relative;
+   height: 50px;
+    margin-right: 2rem;
+    top: 1rem;
+    background-color: #b6a981;
+
+  }
+  .item1{
+   width: max-content;
+  }
+ .alert__content-Search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:#f6f9fb;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+       padding: 10px 40px 10px 20px;
+       margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    
+    font-family: var(--body-font);
+ }
+ .alert__search{
+    background-image: url(../../Assets/search.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:2px;
+    padding: 8px 6px 8px 30px;
+    margin-left: 1rem;
+    font-size: 15px;
+    width: 466px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+ }
+ .search-input-category{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+ }
+ .alert__serach-date{
+    margin-right: 0.50rem;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+ }
+ .alert__search-titleserach{
+    margin-left: 0.50rem;
+ }
+ .alert__search-titleselected,
+ .alert__search-titleDate{
+margin-left: 1rem;
+ }
+ .fa-angle-double-down{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 1.4rem;
+ }
+ .search-button{
+    margin-top: 1.3rem;
+    background-color: #019863;
+    border-radius: 30px;
+    padding: 10px 50px 10px 50px;
+ }
+.alert__content-tabledata{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   margin-top: 2rem;
+   margin-left: 1rem;
+   margin-right: 4rem;
+   border-radius: 10px;
+}
+.alert__content-tabledata {
+   width: 97%; /* Ensure the div takes full width */
+   display: flex;
+   justify-content: center; /* Center the content horizontally */
+   padding: 20px; /* Add some padding around the content */
+}
+
+.product-data {
+   width: 100%; /* Ensure the product data div takes full width */
+}
+.product__title{
+   margin-bottom: 1rem;
+}
+
+.product__table {
+   width: 100%; /* Table width is 100% of its container */
+   border-collapse: collapse; 
+   margin: auto; /* This will center the table horizontally */
+}
+
+.table__heading,
+.table__data {
+   text-align: center; /* Centers text in the table cells */
+   border: 1px solid #b6a981; /* Adds a border to each cell */
+   padding: 8px; /* Adds padding inside each cell for better readability */
+}
+.table__heading{
+   border-radius: 5px;
+}
+
+.table__row:nth-child(even) {
+   background-color: #f2f2f2; /* Adds a zebra-striping effect to the rows */
+}.alert__title{
+    font-family:none;
+    margin-bottom: 1cqmin;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));
+    padding: 0.90rem;
+    font-size: 25px;
+    color: #b6a981;
+    border-radius: 10px;
+  }
+  .alert__subtitle{
+    font-family:"Plus Jakarta Sans", sans-serif;
+    font-weight: 50;
+    color: #000;
+  }
+  .alert--subbtitle{
+   font-family:var(--body-font);
+
+   color: rgba(0, 0, 0, 0.6);
+   margin-left: 1rem;
+   font-size: 16px;
+   font-weight: 300;
+  }
+  .alert__content-title{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content:space-between;
+    overflow: hidden;
+  }
+  .alert--title{
+    margin-left: 1rem;
+    font-size: 2.4rem;
+    margin-top: 1.3rem;
+    
+  }
+  .create-button{
+    margin-right: 2rem;
+  }
+  .item1{
+   width: max-content;
+  }
+ .alert__content-Search{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:#f6f9fb;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+       padding: 10px 40px 10px 20px;
+       margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    
+    font-family: var(--body-font);
+ }
+ .alert__search{
+    background-image: url(../../Assets/search.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:2px;
+    padding: 8px 6px 8px 30px;
+    margin-left: 1rem;
+    font-size: 15px;
+    width: 466px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+ }
+ .search-input-category{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+ }
+ .alert__serach-date{
+    margin-right: 0.50rem;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+ }
+ .alert__search-titleserach{
+    margin-left: 0.50rem;
+ }
+ .alert__search-titleselected,
+ .alert__search-titleDate{
+margin-left: 1rem;
+ }
+ .fa-angle-double-down{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 1.4rem;
+ }
+ .search-button{
+    margin-top: 1.3rem;
+    padding: 10px 50px 10px 50px;
+ }
+.alert__content-tabledata{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+   margin-top: 2rem;
+   margin-left: 1rem;
+   margin-right: 4rem;
+   border-radius: 10px;
+}
+.alert__content-tabledata {
+   width: 97%; /* Ensure the div takes full width */
+   display: flex;
+   justify-content: center; /* Center the content horizontally */
+   padding: 20px; /* Add some padding around the content */
+}
+
+.product-data {
+   width: 100%; /* Ensure the product data div takes full width */
+}
+.product__title{
+   margin-bottom: 1rem;
+}
+
+.product__table {
+   width: 100%; /* Table width is 100% of its container */
+   border-collapse: collapse; 
+   margin: auto; /* This will center the table horizontally */
+}
+
+
+.table__heading,
+.table__data {
+   text-align: center;
+   border: none;
+   padding: 8px; 
+}
+.table__heading{
+   border-radius: 5px;
+}
+.left1{
+   border-left: 1px solid #b6a981;
+
+}
+.right1{
+   border-right: 1px solid #b6a981;
+
+
+}
+
+.table__row,.table__data {
+   border-bottom: 1px solid #b6a981;
+   border-top: 1px solid #b6a981;
+
+}
+.table__row:nth-child(even) {
+   background-color: #f2f2f2; /* Adds a zebra-striping effect to the rows */
+}
+
+.table__heading {
+   background-color: #f6f9fb;
+   color: black; /* White text color */
+   padding: 12px; /* More padding for heading cells */
+}
+
+.table__data {
+   vertical-align: middle; /* Aligns the content vertically in the middle of the cell */
+}
+.uil-trash-alt,
+.uil-edit{
+font-size: 20px;
+cursor: pointer;
+}
+.green-background{
+   color: green;        
+}
+
+.red-background{
+   color: red;            
+}
+.alert-color{
+   color: #b6a981;
+}
+.custom-dialog-content {
+  border-radius: 15px !important;
+  background-color: #f0f0f0 !important;
+  font-family: var(--body-font)!important;
+}
+
+.custom-dialog-title {
+  font-size: 25px!important;
+  font-family: var(--body-font) !important;
+}
+
+.custom-dialog-text {
+  font-size: 18px!important;
+}
+
+.custom-dialog-cancel {
+   color: black !important;
+   margin-top: 5px !important;
+ }
+ 
+ .custom-dialog-delete {
+   background-color: black !important;
+   color: white !important;
+   margin-top: 5px  !important;
+
+ }
+ 
+ .editPriceBlock {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+ }
+ 
+
+.table__heading {
+   background-color: #f6f9fb;
+   color: black; /* White text color */
+   padding: 12px; /* More padding for heading cells */
+}
+
+.table__data {
+   vertical-align: middle; /* Aligns the content vertically in the middle of the cell */
+}
+.uil-trash-alt,
+.uil-edit{
+font-size: 20px;
+cursor: pointer;
+}
+.green-background{
+   color: green;        
+}
+
+.red-background{
+   color: red;            
+}
+.alert-color{
+   color: #b6a981;
+}
+.custom-dialog-content {
+  border-radius: 15px !important;
+  background-color: #f0f0f0 !important;
+  font-family: var(--body-font)!important;
+}
+
+.custom-dialog-title {
+  font-size: 25px!important;
+  font-family: var(--body-font) !important;
+}
+
+.custom-dialog-text {
+  font-size: 18px!important;
+}
+
+.custom-dialog-cancel {
+   color: black !important;
+   margin-top: 5px !important;
+ }
+ 
+ .custom-dialog-delete {
+   background-color: black !important;
+   color: white !important;
+   margin-top: 5px  !important;
+
+ }
+ 
+ .editPriceBlock {
+   display: flex;
+   justify-content: space-between;
+   gap: 15px;
+ }
+ .NodataPic{
+   width: 100px;
+   height: 100px;
+ }
+ .NodataPic__title{
+   font-weight: 300;
+ }

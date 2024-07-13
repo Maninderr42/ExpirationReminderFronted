@@ -1,0 +1,187 @@
+.setting__title{
+    font-family:none;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-info-rgb) ,var(--bs-bg-opacity));    padding: 0.90rem;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.icon__tab{
+    margin-top: 4px;
+
+}
+.setting__subtitle-data{
+    border: 1px solid rgb(17, 135, 232);
+    border-radius: 10px;
+    margin-right: 2rem;
+    padding: 5px;
+}
+.setting__subtitle-icon{
+    color: rgb(17, 135, 232);
+    margin-top: 2px;
+}
+
+.setting__main-content{
+    margin-left: 0rem;
+    border-radius: 10px;
+    margin-right: 10rem;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  }
+.setting__content-tabdata{
+    display: flex;
+    flex-direction: row;
+    gap :2rem;
+    /* background-color: aqua; */
+    /* border-bottom: 1px solid #ccc; */
+
+}
+.nav-item {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .nav-item.active {
+    color: rgb(255, 102, 0);
+    border-bottom: 3px solid  rgb(255, 102, 0);
+  }
+
+  .icon{
+    position: relative;
+    margin-right: 3px;
+  }
+
+  .email__service{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .service{
+    height: 250px;
+  }
+  .service__content{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .email-block{
+margin-top: 2.5rem;
+  }
+
+  .service-icon{
+    margin-top: 2px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .form-checkinput{
+    margin-right: 20px;
+  }
+  .service-title h3{
+    color: #454545;
+  }
+  .service-title span{
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .reminders{
+    height: 350px;
+
+  }
+  .reminders .reminder__block-title {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .reminders .reminder__content-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem;
+  }
+  
+  .reminders .reminder__subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-bottom: 0.5rem; */
+  }
+  
+   .reminder__before {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+   .reminder__label {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+   .reminder__input {
+    flex: 2;
+    width: 300px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+  
+  .reminders .reminderButton {
+    background-color: #019863;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+  }
+  .general__content-title {
+    margin-top: 2rem;
+    color: #454545;
+    margin-left: 2rem;
+}
+/* .label__generel{
+  width: 100px;
+} */
+.general__content-title h3{
+    color: #737373;
+}
+.general__form {
+    margin: 2rem;
+    height: 250px;
+}
+.general__form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.general__form-row label {
+    margin-right: 1rem;
+    width: 140px;
+
+}
+.general__input {
+    /* flex: 1; */
+    width: 20%;
+    padding: 0.5rem;
+    border: 1px solid #b6a981;
+    border-radius: 5px;
+}
+
+.general__save-button {
+    margin-top: 0rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    /* float: right; */
+    margin-left: 4rem;
+    border-radius: 5px;
+    background-color: #019863;
+    color: white;
+    cursor: pointer;
+}
+.general__save-button:hover {
+    background-color: #01694b;
+}
